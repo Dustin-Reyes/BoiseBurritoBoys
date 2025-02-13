@@ -35,6 +35,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.13.3",
     "prettier": "^3.5.0",
+    "process": "^0.11.10",
     "prop-types": "^15.8.1"
   },
   "license": "MIT",
