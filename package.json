@@ -1,0 +1,51 @@
+{
+  "alias": {
+    "components": "./src/components",
+    "context": "./src/context",
+    "data": "./src/data",
+    "hooks": "./src/hooks",
+    "pages": "./src/pages",
+    "styles": "./src/styles",
+    "utils": "./src/utils"
+  },
+  "author": "Dustin Reyes <Dustin@Transpiled.com>",
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.27.0"
+  },
+  "description": "BurritoBoys",
+  "devDependencies": {
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.20.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.20.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.15.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.13.3",
+    "prettier": "^3.5.0",
+    "prop-types": "^15.8.1"
+  },
+  "license": "MIT",
+  "name": "my-project",
+  "scripts": {
+    "build": "parcel build public/index.html",
+    "dev": "parcel public/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "start": "yarn build && serve dist",
+    "test": "jest --watch"
+  },
+  "version": "1.0.0"
+}
