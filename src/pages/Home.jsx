@@ -1,20 +1,10 @@
-import ExampleComponent from 'components/ExampleComponent';
-import styled from '@emotion/styled';
-
-const StyledHome = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-
-  background-color: #000;
-`;
+import Hero from 'components/Hero';
 
 const Home = () => {
   return (
-    <StyledHome>
-      <ExampleComponent />
-    </StyledHome>
+    <>
+      <Hero />
+    </>
   );
 };
 
