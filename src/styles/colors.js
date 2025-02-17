@@ -16,7 +16,7 @@ const colors = {
   white: '#ffffff',
   gray: '#afafaf',
   lightGray: '#f5f5f5',
-  darkGray: '#757575',
+  darkGray: '#3A3A3A',
 
   // Functional Colors
   success: '#28a745',
